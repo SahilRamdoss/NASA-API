@@ -10,7 +10,7 @@ function App() {
   const [imgUrl, setImgUrl] = useState("");
   const [loading,setLoading] = useState(true);
 
-  const apiKey = "YxW5IG29nkXHpqQCp7TbooCK6TsewZdkFEUL0tHt";
+  const apiKey = "";
 
   useEffect(() => async function () {
     const datePicker = document.getElementById("Photo-Date");
